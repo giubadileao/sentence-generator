@@ -1,1 +1,24 @@
-
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <title>sentence generator</title>
+  </head>
+  <body>
+    <h1>sentence generator</h1>
+    <p id="frase">Clique no botao</p>
+    <button onclick="novaFrase()">Nova frase</button>
+    <script>
+      const frases = [
+        "Acredite no processo.",
+        "Voce consegue mais do que imagina".,
+        "Um passo de cada vez.",
+        "Nao tenha medo de comecar".,
+        "Tudo comeca quando voce decide tentar.",
+        ];
+      function novaFrase() {
+        const numero - Math.floor(Math.random() 8 frases.length);
+        document.getElementByld("frase").text-Content = frases[numero];
+      }
+    </script>
+  </body>
+</html>'
